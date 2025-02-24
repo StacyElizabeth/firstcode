@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
-    
     <title>CatPhotoApp</title>
   </head>
   <body>
@@ -12,13 +10,15 @@
         <h2>Cat Photos</h2>
         <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        <a href="https://freecatphotoapp.com">
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+        </a>
       </section>
       <section>
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
         <ul>
-          <li>cat nip</li>
+          <li>catnip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>
@@ -45,24 +45,29 @@
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
             <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
           </fieldset>
-      <form action="https://freecatphotoapp.com/submit-cat-photo">
-  <fieldset>
-    <legend>What's your cat's personality?</legend>
-    
-    <label for="loving">
-      <input id="loving" type="checkbox" name="personality" value="loving" checked> Loving
-    </label>
-    
-    <label for="lazy">
-      <input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy
-    </label>
-    
-    <label for="energetic">
-      <input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic
-    </label>
 
-  </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <label for="loving">
+              <input id="loving" type="checkbox" name="personality" value="loving" checked> Loving
+            </label>
+            <label for="lazy">
+              <input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy
+            </label>
+            <label for="energetic">
+              <input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic
+            </label>
+          </fieldset>
 
-  <input type="text" name="catphotourl" placeholder="Cat photo URL" required>
-  <button type="submit">Submit</button>
-</form>
+          <input type="text" name="catphotourl" placeholder="Cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
