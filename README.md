@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
+    
     <title>CatPhotoApp</title>
   </head>
   <body>
@@ -10,15 +12,13 @@
         <h2>Cat Photos</h2>
         <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> online!</p>
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com">
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
-        </a>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
       </section>
       <section>
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
         <ul>
-          <li>catnip</li>
+          <li>cat nip</li>
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>
@@ -45,21 +45,13 @@
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
             <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
           </fieldset>
-
           <fieldset>
             <legend>What's your cat's personality?</legend>
-            <label for="loving">
-              <input id="loving" type="checkbox" name="personality" value="loving" checked> Loving
-            </label>
-            <label for="lazy">
-              <input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy
-            </label>
-            <label for="energetic">
-              <input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic
-            </label>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
           </fieldset>
-
-          <input type="text" name="catphotourl" placeholder="Cat photo URL" required>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
           <button type="submit">Submit</button>
         </form>
       </section>
